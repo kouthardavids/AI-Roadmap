@@ -1,0 +1,30 @@
+ALGORITHMS:
+How do we actually solve problems?
+input -> some sort of algorithm to solve the problem -> output
+
+What is an algorithm??
+-> An algorithm is a step by step instruction to solving a problem
+-> Software is an implementation of code, step by step instructions
+
+FOR EXAMPLE:
+We have a phone book filled with a list of contact. But we want to find Alice in the phone book. This phone book is sorted alphabetically.
+
+In order to solve this problem, we can write a set of instructions we want in order to solve this problem using pseudocode.
+What is pseudocode? Pseudocode is human-like step by instructions we want to take, e.g
+
+1. Open the phone book
+2. Open to the middle of the phone book
+3. Look at page
+4. If person is on the page
+5.     -> CALL THE PERSON
+6. Else if person is earlier in the book
+7.     -> GO TO THE MIDDLE OF THE LEFT SIDE OF THE PHONE BOOK
+8. Back to line 3 (???while loop)
+9. Else if person is later in the book
+10.    -> GO TOT THE MIDDLE OF THE RIGHT SIDE OF THE PHONE BOOK
+11. Go back to line 3
+12. Else Quit
+
+problem gets smaller and smaller
+
+(check the code in 'phone-book-problem.py')
